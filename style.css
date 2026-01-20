@@ -201,3 +201,59 @@ padding-top: 50px;
         font-size: 1rem;
         color: #FFFFFF;
     }
+    /* Why Choose TechWave */
+    .Why-Choose-TechWave{
+width: 100%;
+max-width: 1440px;
+/* border: 2px solid red; */
+height: 1000px;
+background-color: #230E3D;
+color: #FFFFFF;
+
+    }
+    .choose{
+        margin: 10px auto;
+        text-align: center;
+        padding: 20px;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .img-des{
+        width: 100%;
+        max-width: 75%;
+        height: 783px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        /* border: 2px solid yellow; */
+        row-gap: 30px;
+        column-gap: 30px;
+        margin: 0 auto;
+    }
+    .sec1{
+grid-row: span 2;
+    }
+    .sec2 ,.sec3,.sec4{
+        grid-column: span 2;
+    }
+    .card{
+        /* border: 2px dashed; */
+        padding-left: 40px;
+        padding-right: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #351165;
+
+border-radius: 40px;
+transition:transform 5s linear ;
+
+    }
+    .size-img{
+        height: 60px;
+        width: 60px;
+    }
+    /* transition applied on the cards */
+    .card:hover{
+        transform: rotate(10deg);
+    }
