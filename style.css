@@ -1,0 +1,82 @@
+
+body{
+    font-size: 16px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+/* shared styles */
+.radient{
+
+}
+/* header style */
+header{
+    width: 100%;
+    max-width: 1440px;
+}
+/* nav-bar styles */
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 2px solid red;
+    background-color: #412567;
+}
+
+.about{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+.bar{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight:500 ;
+}
+.nav-logo{
+    font-size: 2rem;
+    color: white;
+
+}
+.wave {
+  background: linear-gradient(90deg, red, orange, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sun-btn{
+    font-size: 1rem;
+font-weight: 500;
+padding: 12px 30px;
+color: #FFFFFF;
+background: linear-gradient(90deg,#ff6a00,#ff0080);
+border-radius: 30px;
+cursor: pointer;
+transition: all 0.3s ease;
+box-shadow: 0 4px 12px rgba(255, 0, 128, 0.4);
+text-align: center;
+align-items: center;
+}
+.sub-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 0, 128, 0.6);
+}
+.arrow {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.subscribe-btn:hover .arrow {
+  transform: translateX(5px);
+}
