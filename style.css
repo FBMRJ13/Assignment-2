@@ -30,6 +30,9 @@ nav{
     /* border: 2px solid red; */
     background-color: #412567;
 }
+.ham-burger{
+    display: none;
+}
 
 .about{
     display: flex;
@@ -147,6 +150,11 @@ align-items: center;
 margin: 0 auto;
 padding-top: 50px;
     }
+.bg-remove{
+    background: transparent;
+    border: none;
+    color: white;
+}
     .sun-btn{
         display: flex;
         gap: 10px;
@@ -166,6 +174,9 @@ padding-top: 50px;
         background-color:#1A0B2E ;
         margin-top: 0;
         /* border: 2px solid red; */
+    }
+    .instrument-serif{
+        font-family: "Instrument Serif" , serif;
     }
     .podcast-des{
         /* border: 2px solid red; */
@@ -392,7 +403,9 @@ padding-bottom: 35px;
     }
     .footer-icon{
         display: flex;
-        gap: 40px;
+        gap: 30px;
+        /* border: 2px solid green; */
+        padding-left: 60px;
     }
     .bold-text-last{
         font-weight: 900;
@@ -400,9 +413,76 @@ padding-bottom: 35px;
     }
     .pod{
        color: #FFFFFF;
-       font-size: 1.2rem;
+       font-size: 1rem;
     }
     .footer-icon>p{
         display: flex;
-        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-left: 20px;
+    }
+
+    @media screen and (max-width:576px) {
+        .bar,.sun-btn{
+            display: none;
+        }
+.ham-burger,.spotify{
+    display: flex;
+}
+.banner-section{
+    background-size: cover;
+}
+     .podcast-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 15px;
+     }   
+     .amount{
+        font-size: 2rem;
+     }
+     .img-des{
+        display: flex;
+        flex-direction: column;
+        
+     }
+     .card{
+        padding: 35px;
+     }
+     .Why-Choose-TechWave{
+        height: 1700px;
+     }
+     .video-card{
+        display: flex;
+        flex-direction: column;
+     }
+     .main-host{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .alex-link,.host-des{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+     }
+     .footer{
+        background-size: contain;
+       
+        /* border: 2px solid red; */
+        
+     }
+     .footer-icon{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 10px;
+       
+        
+     }
+     #Serif-text{
+        font-family: inherit;
+     }
     }
